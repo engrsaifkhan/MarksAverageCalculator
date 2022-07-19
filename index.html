@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marks Average Calculator</title>
+<link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+<div class="form1">
+
+      <h2>Marks Average Calculator </h2>
+<div id="averagemarks"></div>
+      <form class="formstyle" onsubmit="averagem(); return false;">
+
+        <select id="subject1">
+          <option >Subject 01</option>
+          <option >English</option>
+          <option >Linear Algebra</option>
+          <option >Pakistan studies</option>
+          <option >Basic Electronics</option>
+          <option >Programming fundamentals</option>
+          <option >Islamic Studies</option>
+          <option >Digital electronics</option>
+          <option >Digital signal processing</option>
+          <option >Embedded electronics</option>
+          <option >signals & systems</option>
+          <option >Probability & statistics</option>
+          <option >Power electronics</option>
+          <option >Modern Electrical Drives</option>
+          <option >Engineering mechanics</option>
+        </select>
+        <input type="number" id="subject1marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+        <select id="subject2">
+          <option  selected>Subject# 2</option>
+          <option >English</option>
+          <option >Linear Algebra</option>
+          <option >Pakistan studies</option>
+          <option >Basic Electronics</option>
+          <option >Programming fundamentals</option>
+          <option >Islamic Studies</option>
+          <option >Digital electronics</option>
+          <option >Digital signal processing</option>
+          <option >Embedded electronics</option>
+          <option >signals & systems</option>
+          <option >Probability & statistics</option>
+          <option >Power electronics</option>
+          <option >Modern Electrical Drives</option>
+          <option >Engineering mechanics</option>
+        </select>
+        <input type="number" id="subject2marks" placeholder="Enter marks out of 100" min="1" max="100"  required>
+<br>
+<select id="subject3">
+  <option  selected>Subject# 3</option>
+  <option >English</option>
+  <option >Linear Algebra</option>
+  <option >Pakistan studies</option>
+  <option >Basic Electronics</option>
+  <option >Programming fundamentals</option>
+  <option >Islamic Studies</option>
+  <option >Digital electronics</option>
+  <option >Digital signal processing</option>
+  <option >Embedded electronics</option>
+  <option >signals & systems</option>
+  <option >Probability & statistics</option>
+  <option >Power electronics</option>
+  <option >Modern Electrical Drives</option>
+  <option >Engineering mechanics</option>
+</select>
+<input type="number" id="subject3marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+<select id="subject4">
+  <option  selected>Subject# 4</option>
+  <option >English</option>
+  <option >Linear Algebra</option>
+  <option >Pakistan studies</option>
+  <option >Basic Electronics</option>
+  <option >Programming fundamentals</option>
+  <option >Islamic Studies</option>
+  <option >Digital electronics</option>
+  <option >Digital signal processing</option>
+  <option >Embedded electronics</option>
+  <option >signals & systems</option>
+  <option >Probability & statistics</option>
+  <option >Power electronics</option>
+  <option >Modern Electrical Drives</option>
+  <option >Engineering mechanics</option>
+</select>
+<input type="number" id="subject4marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+<select id="subject5">
+  <option  selected>Subject# 5</option>
+  <option >English</option>
+  <option >Linear Algebra</option>
+  <option >Pakistan studies</option>
+  <option >Basic Electronics</option>
+  <option >Programming fundamentals</option>
+  <option >Islamic Studies</option>
+  <option >Digital electronics</option>
+  <option >Digital signal processing</option>
+  <option >Embedded electronics</option>
+  <option >signals & systems</option>
+  <option >Probability & statistics</option>
+  <option >Power electronics</option>
+  <option >Modern Electrical Drives</option>
+  <option >Engineering mechanics</option>
+</select>
+<input type="number" id="subject5marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+<select id="subject6" >
+  <option  selected>Subject# 6</option>
+  <option >English</option>
+  <option >Linear Algebra</option>
+  <option >Pakistan studies</option>
+  <option >Basic Electronics</option>
+  <option >Programming fundamentals</option>
+  <option >Islamic Studies</option>
+  <option >Digital electronics</option>
+  <option >Digital signal processing</option>
+  <option >Embedded electronics</option>
+  <option >signals & systems</option>
+  <option >Probability & statistics</option>
+  <option >Power electronics</option>
+  <option >Modern Electrical Drives</option>
+  <option >Engineering mechanics</option>
+</select>
+<input type="number" id="subject6marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+<select id="subject7">
+  <option  selected>Subject# 7</option>
+  <option >English</option>
+  <option >Linear Algebra</option>
+  <option >Pakistan studies</option>
+  <option >Basic Electronics</option>
+  <option >Programming fundamentals</option>
+  <option >Islamic Studies</option>
+  <option >Digital electronics</option>
+  <option >Digital signal processing</option>
+  <option >Embedded electronics</option>
+  <option >signals & systems</option>
+  <option >Probability & statistics</option>
+  <option >Power electronics</option>
+  <option >Modern Electrical Drives</option>
+  <option >Engineering mechanics</option>
+</select>
+<input type="number" id="subject7marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+<select id="subject8">
+  <option  selected>Subject# 8</option>
+  <option >English</option>
+  <option >Linear Algebra</option>
+  <option >Pakistan studies</option>
+  <option >Basic Electronics</option>
+  <option >Programming fundamentals</option>
+  <option >Islamic Studies</option>
+  <option >Digital electronics</option>
+  <option >Digital signal processing</option>
+  <option >Embedded electronics</option>
+  <option >signals & systems</option>
+  <option >Probability & statistics</option>
+  <option >Power electronics</option>
+  <option >Modern Electrical Drives</option>
+  <option >Engineering mechanics</option>
+</select>
+<input type="number" id="subject8marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+<select id="subject9">
+  <option  selected>Subject# 9</option>
+  <option >English</option>
+  <option >Linear Algebra</option>
+  <option >Pakistan studies</option>
+  <option >Basic Electronics</option>
+  <option >Programming fundamentals</option>
+  <option >Islamic Studies</option>
+  <option >Digital electronics</option>
+  <option >Digital signal processing</option>
+  <option >Embedded electronics</option>
+  <option >signals & systems</option>
+  <option >Probability & statistics</option>
+  <option >Power electronics</option>
+  <option >Modern Electrical Drives</option>
+  <option >Engineering mechanics</option>
+</select>
+<input type="number" id="subject9marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+<select id="subject10" >
+  <option  selected>Subject# 10</option>
+  <option >English</option>
+  <option >Linear Algebra</option>
+  <option >Pakistan studies</option>
+  <option >Basic Electronics</option>
+  <option >Programming fundamentals</option>
+  <option >Islamic Studies</option>
+  <option >Digital electronics</option>
+  <option >Digital signal processing</option>
+  <option >Embedded electronics</option>
+  <option >signals & systems</option>
+  <option >Probability & statistics</option>
+  <option >Power electronics</option>
+  <option >Modern Electrical Drives</option>
+  <option >Engineering mechanics</option>
+</select>
+<input type="number" id="subject10marks" placeholder="Enter marks out of 100" min="1" max="100" required>
+<br>
+<button type="submit">Calculate</button>
+      </form>
+
+
+<div/>
+<script src="./app.js">
+
+</script>
+  </body>
+</html>
