@@ -1,8 +1,8 @@
 function averagem() {
 
-  let subject1marks = document.querySelector("#subject1marks").value;
-  let subject2marks = document.querySelector("#subject2marks").value;
-  let subject3marks = document.querySelector("#subject3marks").value;
+let subject1marks = document.querySelector("#subject1marks").value;
+let subject2marks = document.querySelector("#subject2marks").value;
+let subject3marks = document.querySelector("#subject3marks").value;
 let subject4marks = document.querySelector("#subject4marks").value;
 let subject5marks = document.querySelector("#subject5marks").value;
 let subject6marks = document.querySelector("#subject6marks").value;
