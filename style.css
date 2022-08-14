@@ -162,7 +162,7 @@ border-style: none;
   margin:0px;
     background-image: linear-gradient(to right, #f78e05, #fabb69, #f78e05);
   width: 87%;
-  height: 96%;
+  height: 89%;
   margin-left: 7%;
   margin-top: 5%;
   }
@@ -201,7 +201,7 @@ border-style: none;
     padding: 1.28% 0.146% 1.28% 0.95%;
     /* margin-left: 21%; */
     width: 100%;
-    height:79%;
+    height:75%;
 
   }
 
@@ -251,13 +251,13 @@ border-style: none;
 
   button{
     margin-top: 2%;
-    margin-left: 38%;
+    margin-left: 31%;
     background-color: #fc8903;
   color: white;
     padding:1% 6%;
     font-family: 'Roboto',sans-serif;
     font-weight: 800;
-    font-size: 1.31vw;
+    font-size: 4.31vw;
     border: 6px solid white;
     border-radius: 40px;
     border-style: ridge;
